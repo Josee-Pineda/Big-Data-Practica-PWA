@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!--CDN Fontawsome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    
+    <!--CDN Animate css-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!--CDN Animate css-->
+    <link rel="stylesheet" href="public/css/main.css">
+
+    <!-- importante el favicon -->
+    <link rel="shortcut icon" href="public/img/favicon.png" type="image/x-icon">
+
+    <!-- importante el manifest.json -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color">
+
+    <title>PWA | Home</title>
+</head>
+<body>
+    <!--Contenido navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black p-3">
+        <a class="navbar-brand font-weight-bold badge badge-info p-3" href="index.html">PWA | BIG DATA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="mision.html"><i class="fas fa-cogs"></i> Mision</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="vision.html"><i class="fas fa-glasses"></i> Vision</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="acerca.html"><i class="fas fa-chalkboard-teacher"></i> ¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portafolio.html"><i class="fas fa-folder"></i> Portafolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galeria.html"><i class="fas fa-images"></i> Galeria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nft.html"><i class="fas fa-coins"></i> NFT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Seccion de logo-->
+        <div class="container">
+            <h2 class="m-lg-3 text-center">Las "tres V" de big data (Caracteristicas)</h2>
+            <div class="row">
+                <table class="table table-striped table-hover table-bordered overflow-hidden table-responsive-sm table-dark animate__bounceIn">
+                    <thead>
+                        <tr>
+                        <th scope="col" class="text-center">Volumen</th>
+                        <th scope="col" class="text-center">Velocidad</th>
+                        <th scope="col" class="text-center">Variedad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td>
+                            La cantidad de datos importa. Con big data, tendrá que procesar grandes volúmenes de datos no estructurados de baja densidad. Puede tratarse de datos de valor desconocido, como feeds de datos de Twitter, secuencias de clics en una página web o aplicación móvil, o equipos con sensores. Para algunas organizaciones, esto puede suponer decenas de terabytes de datos. Para otras, incluso cientos de petabytes.
+                        </td>
+                        <td>
+                            La velocidad es el ritmo al que se reciben los datos y (posiblemente) al que se aplica alguna acción. La mayor velocidad de los datos normalmente se transmite directamente a la memoria, en vez de escribirse en un disco. Algunos productos inteligentes habilitados para Internet funcionan en tiempo real o prácticamente en tiempo real y requieren una evaluación y actuación en tiempo real.
+                        </td>
+                        <td>
+                            La variedad hace referencia a los diversos tipos de datos disponibles. Los tipos de datos convencionales eran estructurados y podían organizarse perfectamente en una base de datos relacional. Con el auge del big data, los datos se presentan en nuevos tipos de datos no estructurados. Los tipos de datos no estructurados y semiestructurados, como el texto, audio o vídeo, requieren un preprocesamiento adicional para poder entender su significado y admitir metadatos.
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h2 class="font-weight-bold m-3 text-center text-uppercase">procesado de los datos</h2>
+            <p>Como ya se ha comentado previamente, el objetivo del Big Data es unificar el almacenamiento y procesado de diferentes fuentes de datos con el objetivo de realizar diversos análisis de datos con toda la información de la empresa. Para un correcto procesado de los datos se debe pasar por 3 fases conocidas como ETL (“extract, transform, load”).</p>
+            <h5>Extracción</h5>
+            <p>Esta fase consiste en la centralización de las capturas de datos provenientes de diversas fuentes.</p>
+            <h5>Transformación</h5>
+            <p>Esta fase trata de estandarizar los diferentes conjuntos de datos con el objetivo de que a la salida tengan una estructura similar. Esta es una etapa compleja que requerirá de código a medida en función de nuestros datos. Esta fase también es conocida como limpieza de los datos.</p>
+            <h5>Load o Carga</h5>
+            <p>El “Load” o “Carga” consiste en el almacenamiento de los datos en un almacén de datos (Data Warehouse), para su posterior análisis.</p>
+        </div>
+
+    <!--Seccion primaria-->
+    <div class="container-fluid">
+        <div class="row bg-black text-white p-5 text-center">
+            <div class="col-sm-4">
+                <p>
+                    <span>
+                        Las características más importantes del Big Data perfectamente se pueden clasificar en tres magnitudes, más conocidas como las tres V del Big Data, relativas a volumen, variedad y  velocidad. 
+                        <br><a href="caracteristicas.html">Ver más</a>
+                    </span>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-asterisk fa-8x text-primary"></i>
+            </div>
+            <div class="col-sm-4">
+                <h3>Estamos hablando de Big Data hermano</h3>
+                <p>
+                    <span>
+                        <a href="https://www.sas.com/es_mx/insights/big-data/what-is-big-data.html" target="_blank">Click aquí para saber más</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-center text-white-50 p-2">
+        <p class="h5">&copy; PWA Big-Data 2021</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+    <!-- script app -->
+    <script src="js/app.js"></script>
+</body>
+</html>
